@@ -3,8 +3,6 @@
 :root,
 :root::before,
 :root::after {
-  --var-font: "Open Sans", "Courier New", Courier, monospace;
-  --image-sidebar: "./mtfuji";
   --black: black;
   --white: white;
   --logo-text-size: 70px;
@@ -27,6 +25,7 @@ main {
 
 body {
   background: rgb(231, 229, 229);
+  font-family: "Open Sans", "Courier New", Courier, monospace;
 }
 
 /* Left Side */
@@ -127,7 +126,7 @@ input {
   &:focus {
     outline: none;
     border: 2px solid orange;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     box-shadow: 2px 2px 5px 1px grey;
   }
 }
@@ -142,7 +141,7 @@ input {
         color: white;
         border: none;
         border-radius: 10px;;
-        box-shadow: 1px 1px 4px 2px lightgrey;
+        box-shadow: 1px 1px 5px 3px lightgrey;
     }
     & p {
         padding-top: 30px;
